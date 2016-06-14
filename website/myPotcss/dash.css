@@ -1,0 +1,66 @@
+/* Custom Styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body{
+	height: 100%;
+	width: 100%;
+	background: #E0D9A8;
+}
+
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
+/* pot
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#main{
+	position: relative;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+#main .image1{
+	width: 31vw;
+	min-width: 250px;
+	min-height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 50%);
+}
+#main .image1 p{
+	position: absolute;
+	font-size: 50px;
+	font-family: Roboto;
+    top: 58%;
+    left: 42%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #4C4C4C;
+}
+#main img{
+	width: 100%;
+	height: 100%;
+}
+#main .footer{
+	font-size: 1.7rem;
+	position: fixed;
+	bottom: 0;
+	left: 1vw;
+	color: #4C4C4C;
+}
+/*#main .title{
+	position: relative;
+	font-size: 50px;
+	font-family: Roboto;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}*/
+#main h1{
+	position: fixed;
+	text-align: center;
+	margin-top: 5vh;
+	margin-left: 45%;
+	color: #4C4C4C;
+}
