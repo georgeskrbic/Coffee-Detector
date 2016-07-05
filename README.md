@@ -1,4 +1,4 @@
-# Coffee Detector
+# Depletion Sensor
 
 Detect the amount of coffee currently in a pot. This was made in python using OpenCV while utilizing a Raspberry Pi configured with a camera module to take still images of a coffee pot and detect the amount in it. This information is subsequently made available through a web interface. The overall purpose is to provide an easy method for knowing if coffee is available in a shared setting such as an office.  
 
